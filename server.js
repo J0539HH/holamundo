@@ -13,7 +13,8 @@ const server = http.createServer((req, res) => {
   });
 });
 
-const port = 80;
+const port = 3000; // Cambia el puerto a uno no privilegiado
 server.listen(port, () => {
   console.log(`Servidor en ejecución en el puerto ${port}`);
 });
+
